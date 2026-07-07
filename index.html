@@ -20,6 +20,7 @@ body{
 
 .container{
   display:flex;
+  flex-direction:row-reverse; /* Website Right | Content Left */
   min-height:100vh;
 }
 
@@ -153,7 +154,7 @@ h1{
 
 @media(max-width:768px){
   .container{
-    flex-direction:column;
+    flex-direction:column-reverse; /* Content Top | Website Bottom */
   }
 
   .demo,
@@ -268,4 +269,3 @@ h1{
 
 </body>
 </html>
-```
